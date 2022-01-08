@@ -1,5 +1,5 @@
 """
-Question 3:
+Question 5:
 (a) Print a specified list after removing 4th element i.e. Black.
 (b) Remove Black and Pink from the list and replace it with Purple.
 """
