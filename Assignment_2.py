@@ -91,18 +91,11 @@ side1 = int(input("Enter the first side of a triangle:\n"))
 side2 = int(input("Enter the second side of a triangle:\n"))
 side3 = int(input("Enter the third side of a triangle:\n"))
 print("\nThe given input lengths can form a triangle or not (Yes or No)?")
-sum1 = side1 + side2
-sum2 = side2 + side3
-sum3 = side3 + side1
 
-if side1 > sum1 or side1 > sum2 or side1 > sum3:
-    print("No")
-elif side2 > sum1 or side2 > sum2 or side2 > sum3:
-    print("No")
-elif side3 > sum1 or side3 > sum2 or side3 > sum3:
-    print("No")
-else:
+if ((side1+side2) > side3 and (side2+side3) > side1 and (side3+side1) > side2 and side1 > 0 and side2 > 0 and side3 > 0):
     print("Yes")
+else:
+    print("No")
 
 
 
