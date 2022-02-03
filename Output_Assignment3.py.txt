@@ -1,0 +1,130 @@
+# OUTPUT 1: To count the number of occurrences of each word or character in the string entered by the user.
+
+Enter a string:
+My Name Is Nikita Sharma
+The number of occurrences of each word present in the string:
+ {'My': 1, 'Name': 1, 'Is': 1, 'Nikita': 1, 'Sharma': 1}
+
+
+# OUTPUT 2: To print the next date of input date (use if-elif).
+
+Enter the day:
+3
+Enter the month:
+2
+Enter the year (1800 to 2025):
+2022
+Next Date is:   4 / 2 / 2022
+
+
+""" OUTPUT 3: To create a list of tuples with the first element as the number
+     and Second element as the square of the number. """
+
+Given List is:
+ [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Updated List is:
+ [(1, 1), (2, 4), (3, 9), (4, 16), (5, 25), (6, 36), (7, 49), (8, 64), (9, 81), (10, 100)]
+
+
+""" OUTPUT 4: To prompt the user for a grade between 4 and 10. If the grade
+     is out of range print error message. """
+
+Enter your Grade between 4 tO 10:
+10
+Your Grade is 'A+' and Outstanding Performance.
+
+
+# OUTPUT 5:
+
+The Pattern is:
+
+ ABCDEFGHIJK
+  ABCDEFGHI
+   ABCDEFG
+    ABCDE
+     ABC
+      A
+
+
+# OUTPUT 6:
+
+(A)
+Enter the SID:
+21103002
+Enter the Student's name:
+Nikita
+Want to enter any other Student Details ??
+Enter a letter y (if Yes) or n (if No):
+y
+Enter the SID:
+21103001
+Enter the Student's name:
+Priya
+Want to enter any other Student Details ??
+Enter a letter y (if Yes) or n (if No):
+y
+Enter the SID:
+21103005
+Enter the Student's name:
+Divya
+Want to enter any other Student Details ??
+Enter a letter y (if Yes) or n (if No):
+n
+The Required Student Details stored in the Dictionary:
+ {21103002: 'Nikita', 21103001: 'Priya', 21103005: 'Divya'}
+
+ (B)
+Sorting Dictionary using Student Names:
+ {21103005: 'Divya', 21103002: 'Nikita', 21103001: 'Priya'}
+
+ (C)
+Sorting Dictionary using SID:
+ {21103001: 'Priya', 21103002: 'Nikita', 21103005: 'Divya'}
+
+ (D)
+Search a student details with SID that you entered before:
+21103002
+The name of that Student is:
+Nikita
+
+
+# OUTPUT 7: To print Fibonacci sequence also print average of the resultant Fibonacci series.
+
+Till how many terms you want to print:
+5
+Fibonacci sequence is:
+0
+1
+1
+2
+3
+Average of the resultant Fibonacci Sequence:
+ 1.4
+
+
+# OUTPUT 8:
+
+#(a) : Create a new set of all elements that are in Set1 and Set2 but not both.
+
+(a)
+{1, 3, 5, 6, 8}
+
+#(b) : Create a new set of all elements that are in only one of the three sets: Set1, Set2 and Set3.
+
+(b)
+{3, 6, 8, 9, 13, 17}
+
+#(c) : Create a new set of elements that are exactly two of the sets Set1, Set2 and Set3.
+
+(c)
+{1, 2, 4, 5}
+
+#(d) : Create a new set of all integers in the range 1 to 10 that are not in Set1.
+
+(d)
+{6, 7, 8, 9, 10}
+
+#(e) : Create a new set of all integers in the range 1 to 10 that are not in Set1, Set2 and Set3.
+
+(e)
+{10, 7}
