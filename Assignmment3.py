@@ -221,20 +221,20 @@ Set3 = {1,5,9,13,17}
 
 #(a) : Create a new set of all elements that are in Set1 and Set2 but not both.
 print("(a)")
-new_set = Set1 ^ Set2
+new_set = (Set1 | Set2) - (Set1 & Set2)
 print(new_set)
 print("\n")
 
 #(b) : Create a new set of all elements that are in only one of the three sets: Set1, Set2 and Set3.
 
 print("(b)")
-new_set = Set1 ^ (Set2 ^ Set3)
+new_set = (Set1 | Set2 | Set3) - ((Set1 & Set2) | (Set1 & Set3) | (Set3 & Set2))
 print(new_set)
 print("\n")
 
 #(c) : Create a new set of elements that are exactly two of the sets Set1, Set2 and Set3.
 print("(c)")
-new_set = (Set1 & Set2) | (Set2 & Set3) | (Set1 & Set3)
+new_set = ((Set1 & Set2) | (Set1 & Set3) | (Set3 & Set2)) - (Set1 & Set2 & Set3)
 print(new_set)
 print("\n")
 
