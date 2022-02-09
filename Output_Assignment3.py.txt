@@ -20,9 +20,11 @@ Next Date is:   4 / 2 / 2022
 """ OUTPUT 3: To create a list of tuples with the first element as the number
      and Second element as the square of the number. """
 
-Given List is:
- [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-Updated List is:
+Enter elements in a list separated by spaces:
+1 2 3 4 5 6 7 8 9 10
+The Required List is:
+ 1 2 3 4 5 6 7 8 9 10
+Updated List after squaring is:
  [(1, 1), (2, 4), (3, 9), (4, 16), (5, 25), (6, 36), (7, 49), (8, 64), (9, 81), (10, 100)]
 
 
