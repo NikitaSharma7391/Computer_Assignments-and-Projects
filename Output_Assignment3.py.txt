@@ -1,13 +1,12 @@
-# OUTPUT 1: To count the number of occurrences of each word or character in the string entered by the user.
 
+Question 1:
 Enter a string:
 My Name Is Nikita Sharma
 The number of occurrences of each word present in the string:
  {'My': 1, 'Name': 1, 'Is': 1, 'Nikita': 1, 'Sharma': 1}
 
 
-# OUTPUT 2: To print the next date of input date (use if-elif).
-
+Question 2:
 Enter the day:
 3
 Enter the month:
@@ -16,10 +15,8 @@ Enter the year (1800 to 2025):
 2022
 Next Date is:   4 / 2 / 2022
 
-
-""" OUTPUT 3: To create a list of tuples with the first element as the number
-     and Second element as the square of the number. """
-
+     
+Question 3:
 Enter elements in a list separated by spaces:
 1 2 3 4 5 6 7 8 9 10
 The Required List is:
@@ -28,16 +25,13 @@ Updated List after squaring is:
  [(1, 1), (2, 4), (3, 9), (4, 16), (5, 25), (6, 36), (7, 49), (8, 64), (9, 81), (10, 100)]
 
 
-""" OUTPUT 4: To prompt the user for a grade between 4 and 10. If the grade
-     is out of range print error message. """
-
+Question 4:
 Enter your Grade between 4 tO 10:
 10
 Your Grade is 'A+' and Outstanding Performance.
 
 
-# OUTPUT 5:
-
+Question 5:
 The Pattern is:
 
  ABCDEFGHIJK
@@ -46,10 +40,9 @@ The Pattern is:
     ABCDE
      ABC
       A
-
-
-# OUTPUT 6:
-
+      
+      
+Question 6:
 (A)
 Enter the SID:
 21103002
@@ -90,8 +83,7 @@ The name of that Student is:
 Nikita
 
 
-# OUTPUT 7: To print Fibonacci sequence also print average of the resultant Fibonacci series.
-
+Question 7:
 Till how many terms you want to print:
 5
 Fibonacci sequence is:
@@ -104,8 +96,7 @@ Average of the resultant Fibonacci Sequence:
  1.4
 
 
-# OUTPUT 8:
-
+Question 8:
 #(a) : Create a new set of all elements that are in Set1 and Set2 but not both.
 
 (a)
