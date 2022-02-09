@@ -28,84 +28,98 @@ print(" \n ")
 
 # QUESTION 2: To print the next date of input date (use if-elif).
 
-while (True):
-    day = int(input("Enter the day:\n"))
-    if (1 <= day <= 31):
-        break
-    else:
-        print("Invalid Day !!\n")
+def Next_Date():
+    List1 = [1, 3, 5, 7, 8, 10]
+    List2 = [4, 6, 9, 11]
+    List3 = [2]
+    List4 = [12]
 
-while (True):
-    month = int(input("Enter the month:\n"))
-    if (1 <= month <= 12):
-        break
-    else:
-        print("Invalid Month !!\n")
+    while (True):
+        day = int(input("Enter the day:\n"))
+        if (1 <= day <= 31):
+            break
+        else:
+            print("Invalid Day !!\n")
 
-while (True):
-    year = int(input("Enter the year (1800 to 2025):\n"))
-    if (1800 <= year <= 2025):
-        break
-    else:
-        print("Invalid Year !!\n")
+    while (True):
+        month = int(input("Enter the month:\n"))
+        if (1 <= month <= 12):
+            break
+        else:
+            print("Invalid Month !!\n")
 
-if (month == 1 or 3 or 5 or 7 or 8 or 10):
-    if (day == 31):
-        day = 1
-        month = month + 1
-        print("Next Date is:  ",day, "/", month, "/", year)
-    elif (day < 31):
-        day = day + 1
-        print("Next Date is:  ",day, "/", month, "/", year)
-    else:
-        print("Invalid Date !!\n")
+    while (True):
+        year = int(input("Enter the year (1800 to 2025):\n"))
+        if (1800 <= year <= 2025):
+            break
+        else:
+            print("Invalid Year !!\n")
 
-elif (month == (4 or 6 or 9 or 11)):
-    if (day == 30):
-        day = 1
-        month = month + 1
-        print("Next Date is:  ",day, "/", month, "/", year)
-    elif (day < 30):
-        day = day + 1
-        print("Next Date is:  ",day, "/", month, "/", year)
-    else:
-        print("Invalid Date !!\n")
-
-elif (month == 2):
-    if ((year % 400 == 0) or (year % 100 != 0) and (year % 4 == 0)):
-        if (day == 29):
+    if month in List1 :
+        if (day == 31):
             day = 1
             month = month + 1
-            print("Next Date is:  ",day, "/", month, "/", year)
-        elif (day < 29):
+            print("Next Date is:  ", day, "/", month, "/", year)
+        elif (day < 31):
             day = day + 1
-            print("Next Date is:  ",day, "/", month, "/", year)
+            print("Next Date is:  ", day, "/", month, "/", year)
         else:
-            print("Please enter the valid date !!\n")
-    else:
-        if (day == 28):
+            print("Invalid Date !!\n")
+            Next_Date()
+
+    elif month in List2 :
+        if (day == 30):
             day = 1
             month = month + 1
-            print("Next Date is:  ",day, "/", month, "/", year)
-        elif (day < 28):
+            print("Next Date is:  ", day, "/", month, "/", year)
+        elif (day < 30):
             day = day + 1
-            print("Next Date is:  ",day, "/", month, "/", year)
+            print("Next Date is:  ", day, "/", month, "/", year)
+        else:
+            print("Invalid Date !!\n")
+            Next_Date()
+
+    elif month in List3:
+        if (year % 4 == 0):
+            if (day == 29):
+                day = 1
+                month = month + 1
+                print("Next Date is:  ", day, "/", month, "/", year)
+            elif (day < 29):
+                day = day + 1
+                print("Next Date is:  ", day, "/", month, "/", year)
+            else:
+                print("Please enter the valid date !!\n")
+                Next_Date()
+        else:
+            if (day == 28):
+                day = 1
+                month = month + 1
+                print("Next Date is:  ", day, "/", month, "/", year)
+            elif (day < 28):
+                day = day + 1
+                print("Next Date is:  ", day, "/", month, "/", year)
+            else:
+                print("Please enter the valid date !!\n")
+                Next_Date()
+
+    elif month in List4:
+        if (day == 31):
+            day = 1
+            month = 1
+            year = year + 1
+            print("Next Date is:  ", day, "/", month, "/", year)
+        elif (day < 31):
+            day = day + 1
+            print("Next Date is:  ", day, "/", month, "/", year)
         else:
             print("Please enter the valid date !!\n")
-
-elif (month == 12):
-    if (day == 31):
-        day = 1
-        month = 1
-        year = year + 1
-        print("Next Date is:  ",day, "/", month, "/", year)
-    elif (day < 31):
-        day = day + 1
-        print("Next Date is:  ",day, "/", month, "/", year)
+            Next_Date()
     else:
         print("Please enter the valid date !!\n")
-else:
-    print("Please enter the valid date !!\n")
+        Next_Date()
+
+Next_Date()
 print("\n")
 
 
