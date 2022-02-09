@@ -1,5 +1,6 @@
 # QUESTION 1: To count the number of occurrences of each word or character in the string entered by the user.
 
+print("Question 1:")
 string1 = input("Enter a string:\n")
 
 #To split all the elements present in the string and stored in a list.
@@ -28,6 +29,7 @@ print(" \n ")
 
 # QUESTION 2: To print the next date of input date (use if-elif).
 
+print("Question 2:")
 def Next_Date():
     List1 = [1, 3, 5, 7, 8, 10]
     List2 = [4, 6, 9, 11]
@@ -126,6 +128,7 @@ print("\n")
 """ QUESTION 3: To create a list of tuples with the first element as the number
      and Second element as the square of the number. """
 
+print("Question 3:")
 inp_list = input("Enter elements in a list separated by spaces:\n")
 List = inp_list.split()
 print("The Required List is:\n",inp_list)
@@ -140,6 +143,7 @@ print("\n")
 """ QUESTION 4: To prompt the user for a grade between 4 and 10. If the grade
      is out of range print error message. """
 
+print("Question 4:")
 grade = int(input("Enter your Grade between 4 tO 10: \n"))
 if( grade == 4 ):
     print("Your Grade is 'D' and Poor Performance.")
@@ -162,6 +166,7 @@ print("\n")
 
 #  QUESTION 5:
 
+print("Question 5:")
 Word = "ABCDEFGHIJK"
 
 count = 1
@@ -175,6 +180,7 @@ print("\n")
 
 #  QUESTION 6:
 
+print("Question 6:")
 student_info = {}
 n = "y"
 
@@ -207,6 +213,7 @@ print("\n")
 
 # QUESTION 7: To print Fibonacci sequence also print average of the resultant Fibonacci series.
 
+print("Question 7:")
 def fibo_recursive(n):
    if n <= 1:
        return n
@@ -231,6 +238,7 @@ print("\n")
 
 #  QUESTION 8:
 
+print("Question 8:")
 Set1 = {1,2,3,4,5}
 Set2 = {2,4,6,8}
 Set3 = {1,5,9,13,17}
