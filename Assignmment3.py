@@ -112,12 +112,14 @@ print("\n")
 """ QUESTION 3: To create a list of tuples with the first element as the number
      and Second element as the square of the number. """
 
-list = [1,2,3,4,5,6,7,8,9,10]
-print("Given List is:\n",list)
-updated_list = []
-for i in list:
-    updated_list.append((i,i**2))
-print("Updated List is:\n",updated_list)
+inp_list = input("Enter elements in a list separated by spaces:\n")
+List = inp_list.split()
+print("The Required List is:\n",inp_list)
+
+for i in range(len(List)):
+    List[i] = int(List[i]) # Conversion of each element into int datatype.
+updated_list =[(List[i], List[i] ** 2) for i in range (len(List))]
+print("Updated List after squaring is:\n",updated_list)
 print("\n")
 
 
