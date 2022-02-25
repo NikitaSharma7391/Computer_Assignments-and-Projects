@@ -1,0 +1,87 @@
+# OUTPUT 1: To count the number of occurrences of each word or character in the string entered by the user.
+
+Printing Tower Of Hanoi with three disks:
+
+Move disk 1 from rod A to rod C.
+Move disk 2 from rod A to rod B.
+Move disk 1 from rod C to rod B.
+Move disk 3 from rod A to rod C.
+Move disk 1 from rod B to rod A.
+Move disk 2 from rod B to rod C.
+Move disk 1 from rod A to rod C.
+
+
+# OUTPUT 2 : To print the Pascal's triangle for n number of rows both Recursive and Iterative procedures.
+
+Enter the number of rows in the Pascal's Triangle:
+5
+
+Using Recursion Procedure:
+
+        1
+      1   1
+    1   2   1
+  1   3   3   1
+1   4   6   4   1
+
+Using Iterative Procedure:
+
+         1
+       1   1
+     1   2   1
+   1   3   3   1
+ 1   4   6   4   1
+
+
+# OUTPUT 3:
+
+Enter two integer values:
+12 5
+
+(a)
+Check whether the quotient is callable or not?
+ False
+Check whether the remainder is callable or not?
+ False
+
+(b)
+Check whether all the values are non zeros or not?
+Yes, all the values are non zeros.
+
+(c)
+Filtered out the values which are greater than 4:
+ [6, 6, 7, 7, 7, 8, 8]
+
+(d)
+Set:
+ {8, 6, 7}
+
+(e)
+Immutable set:
+ frozenset({8, 6, 7})
+
+(f)
+Hash value of the maximum value from the set:
+ 8
+
+# OUTPUT 4:
+
+Object creation.
+The name of the student is Nikita Sharma and roll number is 21103002.
+Object destruction.
+
+
+# OUTPUT 5:
+
+(a) The updated salary of Mehak is 70000.
+(b) Record of the employee Viren deleted.
+
+# OUTPUT 6:
+
+Enter the word:
+listen
+Enter a new meaningful word using the exact same letters to test your friendship:
+silent
+Check whether the new word is meaningful or not? (y/Y or n/N )
+y
+THEIR FRIENDSHIP IS A REAL.
